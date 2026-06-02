@@ -2,6 +2,6 @@
   "version": 2,
 "builds": [
 { "src": "server.js", "use": "@vercel/node" },
-{ "src": "public/root.war", "use": "vercel-java" }
+{ "src": "public/root.war", "use": "now-java" }
 ]
 }
