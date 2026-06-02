@@ -7,8 +7,8 @@
       "config": {
         "runtime": "java11"
       }
-    },
-  ]
+    }
+  ],
   "routes": [
     { "src": "/(.*)", "dest": "public/root.war" }
   ] 
