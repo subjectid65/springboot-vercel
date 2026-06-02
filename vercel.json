@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "public/root.war", "use": "@vercel/java","config":{"runtime":"java11"}},
-  
-  ],
+ "builds": [
+    {
+      "src": "public/root.war",
+      "use": "@vercel/java",
+      "config": {
+        "runtime": "java11"
+      }
+    }
+  ]
   "routes": [
     { "src": "/(.*)", "dest": "public/root.war" }
   ] 
