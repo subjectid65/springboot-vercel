@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "public/root.war",
+      "src": "/public/root.war",
       "use": "now-java"
     }
   ]
